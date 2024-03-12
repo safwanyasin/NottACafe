@@ -51,6 +51,7 @@ class _MyAppState extends State<MyApp> {
       builder: (BuildContext context, Widget? child) {
         return Consumer<DarkThemeProvider>(builder: (context, value, child) {
           return MaterialApp(
+            debugShowCheckedModeBanner: false,
             restorationScopeId: 'app',
             localizationsDelegates: const [
               AppLocalizations.delegate,

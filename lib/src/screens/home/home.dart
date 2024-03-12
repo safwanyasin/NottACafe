@@ -369,8 +369,8 @@ class _HomeState extends State<Home> {
                                 category: 1,
                                 index: index,
                                 relevantID: _restaurantItems[index - 2].id,
-                                operatingHours: _restaurantItems[index - 2].workingHours,
-
+                                operatingHours:
+                                    _restaurantItems[index - 2].workingHours,
                               );
                             }
                           }
@@ -394,7 +394,7 @@ class _HomeState extends State<Home> {
                 }),
           ])),
       floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.shopping_cart),
+        child: Icon(Icons.shopping_cart, color: Colors.white),
         backgroundColor: Theme.of(context).colorScheme.onPrimaryContainer,
         onPressed: () {
           justPush(context, Cart());
