@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149174881234",
+    "project_id": "nottacafe-f13b2",
+    "storage_bucket": "nottacafe-f13b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149174881234:android:a03667af4abcca553e960b",
+        "android_client_info": {
+          "package_name": "com.example.nottacafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149174881234-ulrj0kp0m92cf9vkcv6vogt0ac6gn5nh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKAkUf8d21Vp8c1qyygwUb8KyEJyZtZL8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149174881234-ulrj0kp0m92cf9vkcv6vogt0ac6gn5nh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
